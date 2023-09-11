@@ -3,6 +3,7 @@
     "expressjwt",
     "IAPI",
     "middlewares",
-    "Millis"
+    "Millis",
+    "postversion"
   ]
 }
