@@ -12,20 +12,21 @@
     "build": "tsc --project ./support/build",
     "compile": "tsc --watch --incremental --project .",
     "lint": "eslint src/**/*",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run lint",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run lint && npm run build",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
   "prettier": {
     "trailingComma": "all",
     "endOfLine": "auto",
     "semi": false,
     "singleQuote": true
-  },
-  "dependencies": {}
+  }
 }

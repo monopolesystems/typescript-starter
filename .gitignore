@@ -5,3 +5,4 @@ __local__
 src/private
 coverage
 dist
+package-lock.json
