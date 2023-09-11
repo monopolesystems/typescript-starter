@@ -4,4 +4,6 @@ npm i -D @babel/core @babel/preset-env @babel/preset-typescript @shelf/jest-mong
 ```
 
 PROD Dependencies
-```npm i dotenv```
+```bash
+npm i dotenv
+```
