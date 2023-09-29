@@ -16,7 +16,7 @@
     "lint:watch": "nodemon --ext ts --exec \"npm run lint\"",
     "prepare": "husky install",
     "prepublishOnly": "git diff-index --quiet HEAD -- && npm run lint && npm run build",
-    "preversion": "git add --all .",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [],
