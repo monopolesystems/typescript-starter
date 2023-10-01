@@ -1,6 +1,5 @@
 node_modules
 private.properties
 .env
-__local__
 private
 dist
